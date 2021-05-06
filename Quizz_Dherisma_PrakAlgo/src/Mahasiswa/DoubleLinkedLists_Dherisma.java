@@ -30,7 +30,7 @@ public class DoubleLinkedLists_Dherisma {
             head = new Node(null, item, null);
         } else {
             Node newNode = new Node(null, item, head);
-            head.prev = newNode; // pertukaran, dimana data yg baru diinputkan akan menggeser posisi head
+            head.prev = newNode; 
             head = newNode;
         }
         size++;
@@ -40,9 +40,9 @@ public class DoubleLinkedLists_Dherisma {
          if (isEmpty()) {
             addFirst(item);
         } else {
-            Node current = head; // current merupaka node yg kita fokuskan saat itu (berarti fokusnya pada head)
-            while (current.next != null){ // apakah ada node lain setelah head
-                current = current.next; // jika ada, maka current (fokus) nya menjadi pindah setelah hed
+            Node current = head; 
+            while (current.next != null){
+                current = current.next; 
             }
             Node newNode = new Node(current, item, null);
             current.next = newNode;
@@ -93,9 +93,9 @@ public class DoubleLinkedLists_Dherisma {
             Node tmp = head;
             while (tmp != null){
                 System.out.println("NIM     : " + tmp.data.nim);
-                System.out.println("Nama    : " + tmp.data.nama);
-                System.out.println("Jurusan : " + tmp.data.jurusan);
-                System.out.println("Prodi   : " + tmp.data.prodi);
+                System.out.println("NAMA    : " + tmp.data.nama);
+                System.out.println("JURUSAN : " + tmp.data.jurusan);
+                System.out.println("PRODI   : " + tmp.data.prodi);
                 System.out.println("IPK     : " + tmp.data.ipk);
                 tmp = tmp.next;
             }
@@ -177,7 +177,7 @@ public class DoubleLinkedLists_Dherisma {
             }
             System.out.println(cari + " pada indeks ke-" + i);
             System.out.println("NIM     : " + nim);
-            System.out.println("Nama    : " + nama);
+            System.out.println("NAMA    : " + nama);
             System.out.println("IPK     : " + ipk);
             
         } else {

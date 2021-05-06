@@ -15,9 +15,8 @@ package Mahasiswa;
 import java.util.Scanner;
 public class MahasiswaMain_Dherisma {
     static void menu(){
-        System.out.println("\n==========================================");
-        System.out.println("     SISTEM PENGOLAH DATA MAHASISWA       ");
-        System.out.println("==========================================");
+        System.out.println("       PEMILIHAN DATA ASD MAHASISWA       ");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("");
         System.out.println("1. Tambah Data Mahasiswa");
         System.out.println("2. Tambah Data Mahasiswa Posisi Akhir");
@@ -30,7 +29,7 @@ public class MahasiswaMain_Dherisma {
         System.out.println("9. Cari Data Mahasiswa (Melalui NIM)");
         System.out.println("10. Urut data Mahasiswa (Melalui IPK)");
         System.out.println("");
-        System.out.println("==========================================");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
         
         public static void main(String[] args) throws Exception {
@@ -47,15 +46,15 @@ public class MahasiswaMain_Dherisma {
             
             switch(option){
                 case 1:
-                    System.out.println("Masukkan Data Mahasiswa");
+                    System.out.println("DATA MAHASISWA");
                     System.out.print("NIM       : ");
                     nim = sc.nextInt();
                     sc.nextLine();
-                    System.out.print("Nama      : ");
+                    System.out.print("NAMA      : ");
                     nama = sc.nextLine();
-                    System.out.print("Jurusan   : ");
+                    System.out.print("JURUSAN   : ");
                     jurusan = sc.nextLine();
-                    System.out.print("Prodi     : ");
+                    System.out.print("PRODI     : ");
                     prodi = sc.nextLine();
                     System.out.print("IPK       : ");
                     ipk = sc.nextDouble();
@@ -66,15 +65,15 @@ public class MahasiswaMain_Dherisma {
                     dm.add(dtt, indeks);
                     break;
                 case 2:
-                    System.out.println("Masukkan Data Mahasiswa");
+                    System.out.println("DATA MAHASISWA");
                     System.out.print("NIM       : ");
                     nim = sc.nextInt();
                     sc.nextLine();
-                    System.out.print("Nama      : ");
+                    System.out.print("NAMA      : ");
                     nama = sc.nextLine();
-                    System.out.print("Jurusan   : ");
+                    System.out.print("JURUSAN   : ");
                     jurusan = sc.nextLine();
-                    System.out.print("Prodi     : ");
+                    System.out.print("PRODI     : ");
                     prodi = sc.nextLine();
                     System.out.print("IPK       : ");
                     ipk = sc.nextDouble();
@@ -82,15 +81,15 @@ public class MahasiswaMain_Dherisma {
                     dm.addLast(dtl);
                     break;
                 case 3:
-                    System.out.println("Masukkan Data Mahasiswa");
+                    System.out.println("DATA MAHASISWA");
                     System.out.print("NIM       : ");
                     nim = sc.nextInt();
                     sc.nextLine();
-                    System.out.print("Nama      : ");
+                    System.out.print("NAMA      : ");
                     nama = sc.nextLine();
-                    System.out.print("Jurusan   : ");
+                    System.out.print("JURUSAN   : ");
                     jurusan = sc.nextLine();
-                    System.out.print("Prodi     : ");
+                    System.out.print("PRODI     : ");
                     prodi = sc.nextLine();
                     System.out.print("IPK       : ");
                     ipk = sc.nextDouble();
